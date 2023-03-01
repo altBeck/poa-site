@@ -1,0 +1,99 @@
+.map {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  width: 100%;
+  height: auto;
+}
+
+.map-mobile {
+  display: none;
+}
+
+.poa__calculator {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding: 4rem;
+  margin-top: -30em;
+}
+
+.poa__calculator-one h1 {
+  font-weight: 100;
+  font-size: 70px;
+}
+
+.poa__calculator-one p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  margin-top: 1em;
+}
+
+.poa__calculator-one {
+  width: 400px;
+  margin-right: 16em;
+}
+
+.poa__calculator-form {
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 113px 129px 69px rgba(112, 109, 97, 0.01), 28px 32px 43px rgba(112, 109, 97, 0.09);
+  border-radius: 16px;
+  font-family: var(--font-family);
+}
+
+.poa__form-head {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.poa__calculator-form div {
+  display: flex;
+}
+
+.poa_form-one h1 {
+  margin-right: 6em;
+  font-weight: 400;
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.poa_form-two h1 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-right: 6.5em;
+}
+
+.poa_form-three h1 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-right: 3em;
+}
+
+.poa_form-two {
+  padding-top: 1em;
+}
+
+.poa_form-three {
+  padding-top: 1em;
+}
+
+
+@media (min-width: 370px) and (max-width: 640px) {
+  .poa__calculator {
+    display: block;
+  }
+
+  .map {
+    display: none;
+  }
+
+  .map-mobile {
+    display: block;
+  }
+}

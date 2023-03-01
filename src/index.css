@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+  --font-family: 'Work Sans', sans-serif;
+
+  --color-white: #fff;
+  --color-black: #000;
+  --color-partner: #FFF8DE;
+  --color-accent: #FFDE59;
+}
+
+@font-face {
+  font-family: "Computer says no";
+  src: local("Computer-says-no"), url("./fonts/Computer-says-no.ttf") format("truetype");
+  font-weight: normal;
+}

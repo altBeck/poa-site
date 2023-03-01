@@ -1,0 +1,10 @@
+export { default as Calculator } from './calculator/Calculator';
+export { default as Header } from './header/Header';
+export { default as Contact } from './contact/Contact';
+export { default as Faq } from './faq/Faq';
+export { default as Footer } from './footer/Footer';
+export { default as Partners } from './partners/Partners';
+export { default as Pool } from './pool/Pool';
+export { default as Projects } from './projects/Projects';
+export { default as Stake } from './stake/Stake';
+export { default as Team } from './team/Team';

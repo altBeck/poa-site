@@ -1,0 +1,139 @@
+.poa__pool-container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8em;
+}
+
+.poa__pool-container-head {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 100;
+  margin-bottom: 1em;
+}
+
+.poa__pool-sub__container {
+  padding: 1.5rem .5rem 2.5rem 0;
+  max-width: 935px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #DBDBDB
+}
+
+.poa__pool-counter {
+  display: flex;
+  background: var(--color-accent);
+  max-width: 848px;
+  padding: 1rem;
+  border: 1px solid 
+  #333333;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.poa__counter-unit {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  width: 138px;
+  font-family: var(--font-family);
+}
+
+.poa__counter-unit h1 {
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.poa__counter-unit h4 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.poa__pool-sub_counter {
+  text-align: center;
+  padding: 2rem;
+  font-family: var(--font-family);
+}
+
+.poa__pool-sub_counter h1 {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.poa__pool-sub_counter h2 {
+  font-weight: 400;
+}
+
+.poa__pool-buttons {
+  font-family: var(--font-family);
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+.poa__pool-buttons button {
+  padding: 16px 32px;
+  margin: 14px;
+  border: 0;
+  border-radius: 64px;
+  background-color: var(--color-accent);
+  cursor: pointer;
+}
+
+@media (min-width: 370px) and (max-width: 640px) {
+  .poa__pool-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+  }
+
+  .poa__pool-container-head {
+    margin-top: -50px;
+    font-size: 48px;
+  }
+  .poa__pool-sub__container {
+    width: 354px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem .125rem 2.5rem 0.125rem;
+  }
+
+  .poa__pool-counter {
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-gap: 30px;
+	  grid-template-rows: 150px 150px 150px;
+	  grid-template-columns: 150px 150px ;
+  }
+
+  .poa__pool-sub_counter {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+  }
+
+  .poa__pool-sub_counter h2 {
+    font-size: 16px;
+    width: 250px;
+    text-align: center;
+  }
+
+  .poa__pool-buttons button {
+    margin: 2px;
+  }
+
+  .poa_pool-text {
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+
+  }
+}
