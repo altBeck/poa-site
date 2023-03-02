@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Team, Partners, Footer, Header, Projects, Stake, Calculator, Faq, Pool } from './containers';
+import { Team, Partners, Footer, Header, Projects, Stake, Steps, Calculator, Faq, Pool } from './containers';
 import { About, Navbar, } from './components';
 import './App.css';
 
@@ -16,6 +16,7 @@ const App = () => {
       <Partners />
       <Pool />
       <Stake />
+      <Steps />
       <Faq />
       <Footer />
       <Projects />

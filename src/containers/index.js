@@ -7,4 +7,5 @@ export { default as Partners } from './partners/Partners';
 export { default as Pool } from './pool/Pool';
 export { default as Projects } from './projects/Projects';
 export { default as Stake } from './stake/Stake';
+export { default as Steps } from './steps/Steps';
 export { default as Team } from './team/Team';
