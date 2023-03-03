@@ -15,7 +15,7 @@ const About = () => {
         </div>
 
         <div className="poa__about-stats_container">
-          <div className="poa__stats one">
+          <div className="poa__stats uno">
             <div>
               <h2>Community Members</h2>
               <h3>4200+</h3>

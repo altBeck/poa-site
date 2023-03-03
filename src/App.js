@@ -17,10 +17,10 @@ const App = () => {
       <Pool />
       <Stake />
       <Steps />
-      <Faq />
-      <Footer />
       <Projects />
       <Team />
+      <Faq />
+      <Footer />
     </div>
   )
 }
