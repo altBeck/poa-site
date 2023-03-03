@@ -58,11 +58,21 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
+  font-family: var(--font-family);
   border: 2px solid black;
   border-radius: 10px;
   background-color: #FFFDF2;
   display: flex;
   justify-content: space-between;
+}
+
+.poa__stats h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.poa__stats h3 {
+  font-size: 22px;
 }
 
 .poa__stats img {
@@ -110,7 +120,7 @@
   }
 
   .poa__about-heading h1 {
-    font-size: 24px;
+    font-size: 48px;
   }
 
   .poa__about-heading h3 {
