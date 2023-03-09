@@ -33,11 +33,27 @@
 .poa__firstWhy {
   font-family: var(--font-family);
   padding-left: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.poa__firstWhy h3 {
+  padding-bottom: 12px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.poa__firstWhy p {
+  font-size: 20px;
+  font-weight: 300;
+  width: 310px;
 }
 
 .poa__first img {
-  width: 134px;
-  height: 134px;
+  width: 124px;
+  height: 124px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .second {

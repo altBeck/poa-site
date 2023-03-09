@@ -18,6 +18,7 @@
   display: flex;
   padding: 4rem;
   margin-top: -30em;
+  justify-content: center;
 }
 
 .poa__calculator-one h1 {

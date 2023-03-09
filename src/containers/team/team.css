@@ -1,0 +1,87 @@
+.poa__team-container {
+  background: #FFF8DE;
+  padding-bottom: 4em;
+}
+
+.poa__team--header {
+  text-align: center;
+}
+
+.poa__team--header h1 {
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  font-size: 104px;
+  font-weight: 100;
+}
+
+.poa__team--sub-container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-family);
+}
+
+.poa__team--sub-container img {
+  width: 280px;
+  height: auto;
+}
+
+.poa__team--sub-container a {
+  display: flex-end;
+ 
+  justify-content: center;
+  padding-right: 2px;
+}
+
+.poa__team--sub-container a img {
+  width: 25px;
+  padding-top: 12px;
+  padding-left: 5px;
+}
+
+.poa__team-members {
+  text-align: center;
+}
+
+.poa__team-members h1 {
+  font-size: 20px;
+}
+
+.poa__team-members p {
+  padding-top: 4px;
+  width: 258px;
+  font-weight: 300;
+  margin: auto;
+}
+
+@media (min-width: 370px) and (max-width: 640px) {
+
+  .poa__team-container {
+    width: 100%;
+    padding-bottom: 2em;
+  }
+
+  .poa__team--sub-container {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: -1em;
+  }
+
+  .poa__team--sub-container img {
+    width: 150px;
+    height: auto;
+  }
+
+  .poa__team--header h1 {
+    font-size: 48px;
+  }
+
+  .poa__team-members {
+    margin-bottom: 2em;
+  }
+
+ 
+}
