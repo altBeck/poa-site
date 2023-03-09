@@ -19,19 +19,19 @@ const Team = () => {
           <img src={josh} alt="Joshua the Founder"/>
           <h1>Joshua Akpan</h1>
           <p>Founder</p>
-          <a href="https://www.linkedin.com/in/joshuaakpan/">Connect <img src={linkedin} alt="linkedin icon"/></a>
+          <a href="https://www.linkedin.com/in/joshuaakpan/" target="_blank" rel="noreferrer">Connect <img src={linkedin} alt="linkedin icon"/></a>
         </div>
         <div className="poa__team-members">
           <img src={gwendal} alt="Gwendal the Community Manager"/>
           <h1>Gwendal Le Divechen</h1>
           <p>Community Manager/ Francophone relations</p>
-          <a href="https://www.linkedin.com/in/gwendal-le-divechen-18577b50/">Connect <img src={linkedin} alt="linkedin icon"/></a>
+          <a href="https://www.linkedin.com/in/gwendal-le-divechen-18577b50/" target="_blank" rel="noreferrer">Connect <img src={linkedin} alt="linkedin icon"/></a>
         </div>
         <div className="poa__team-members">
           <img src={davide} alt="Davide the Creative Director"/>
           <h1>Davide Pasini</h1>
           <p>Creative Director</p>
-          <a href="https://www.linkedin.com/in/davidepasini/">Connect <img src={linkedin} alt="linkedin icon"/></a>
+          <a href="https://www.linkedin.com/in/davidepasini/" target="_blank" rel="noreferrer">Connect <img src={linkedin} alt="linkedin icon"/></a>
         </div>
       </div>
     </div>
