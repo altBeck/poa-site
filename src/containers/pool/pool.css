@@ -83,7 +83,7 @@
   cursor: pointer;
 }
 
-@media (min-width: 370px) and (max-width: 640px) {
+@media (min-width: 359px) and (max-width: 640px) {
   .poa__pool-container {
     width: 100%;
     margin-left: auto;

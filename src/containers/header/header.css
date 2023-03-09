@@ -47,7 +47,7 @@
 
 /* Media Queries */
 
-@media (min-width: 370px) and (max-width: 640px) {
+@media (min-width: 359px) and (max-width: 640px) {
   .poa__header {
     margin-left: auto;
     margin-right: auto;

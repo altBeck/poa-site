@@ -56,7 +56,7 @@
   margin: auto;
 }
 
-@media (min-width: 370px) and (max-width: 640px) {
+@media (min-width: 359px) and (max-width: 640px) {
 
   .poa__team-container {
     width: 100%;

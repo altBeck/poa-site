@@ -76,7 +76,7 @@
 
 /* Media Queries */
 
-@media (min-width: 370px) and (max-width: 640px) {
+@media (min-width: 359px) and (max-width: 640px) {
   .line {
     display: none;
   }

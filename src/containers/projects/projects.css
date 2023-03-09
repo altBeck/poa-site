@@ -105,7 +105,7 @@
   border-bottom-left-radius: 16px;
 }
 
-@media (min-width: 370px) and (max-width: 640px) {
+@media (min-width: 359px) and (max-width: 640px) {
   .poa__projects-container {
     margin-top: 1em;
     display: block;
