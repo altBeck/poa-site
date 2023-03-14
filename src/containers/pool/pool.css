@@ -13,7 +13,7 @@
 }
 
 .poa__pool-sub__container {
-  padding: 1.5rem .5rem 2.5rem 0;
+  padding: 1.5rem .5rem 2.5rem;
   max-width: 935px;
   margin-right: auto;
   margin-left: auto;
@@ -118,22 +118,50 @@
     margin-right: auto;
     display: block;
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .poa__pool-sub_counter h2 {
     font-size: 16px;
-    width: 250px;
+    margin: auto;
     text-align: center;
+    word-break: break-all;
   }
 
   .poa__pool-buttons button {
     margin: 2px;
   }
 
-  .poa_pool-text {
-    width: 250px;
-    text-align: center;
-    justify-content: center;
+}
 
+@media (min-width: 767px) and (max-width: 920px) {
+
+  .poa__pool-container-head {
+    font-size: 80px;
+    margin-bottom: 0.5em;
+  }
+
+  .poa__pool-container {
+    margin-top: 5em;
+    margin-bottom: 4em;
+  }
+
+  .line-hr {
+    display: block;
+  }
+
+  .poa__pool-sub__container {
+    margin: 20px;
+  }
+
+  .poa__pool-counter {
+    margin: 10px;
+  }
+
+  .poa__pool-sub_counter h2 {
+    margin: auto;
+    text-align: center;
+    word-break: break-all;
   }
 }

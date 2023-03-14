@@ -145,7 +145,46 @@
 }
 
 
-@media (min-width: 767px) and (max-width: 920px) {}
+@media (min-width: 767px) and (max-width: 920px) {
+  .poa__about-container {
+    padding: 4rem 2rem;
+  }
+
+  .poa__about-sub_container {
+    display: block;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .poa__about-heading {
+    text-align: center;
+    margin: auto;
+    width: auto;
+  }
+
+  .poa__about-heading h1 {
+    font-size: 80px;
+  }
+
+  .poa__about-heading h3 {
+    width: fit-content;
+  }  
+  
+  .poa__about-heading p {
+    width: fit-content;
+  }
+
+  .poa__about-stats_container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em;
+  }
+
+  hr {
+    display: none;
+  }
+
+}
 
 
 @media (min-width: 991px) and (max-width: 1200px) {}

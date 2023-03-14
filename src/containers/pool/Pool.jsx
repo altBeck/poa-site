@@ -13,31 +13,31 @@ const Pool = () => {
             <h1>POA</h1>
             <h4>Ticker</h4>
           </div>
-          <hr width="1" size="90" />
+          <hr className="line-hr" width="1" size="90" />
 
           <div className="poa__counter-unit">
             <h1>10k₳</h1>
             <h4>Pledge</h4>
           </div>
-          <hr width="1" size="90" />
+          <hr className="line-hr" width="1" size="90" />
 
           <div className="poa__counter-unit">
             <h1>3.75M₳</h1>
             <h4>Active stake</h4>
           </div>
-          <hr width="1" size="90" />
+          <hr className="line-hr" width="1" size="90" />
 
           <div className="poa__counter-unit">
             <h1>303</h1>
             <h4>Delegators</h4>
           </div>
-          <hr width="1" size="90" />
+          <hr className="line-hr" width="1" size="90" />
 
           <div className="poa__counter-unit">
             <h1>3.13%</h1>
             <h4>ROS</h4>
           </div>
-          <hr width="1" size="90" />
+          <hr className="line-hr" width="1" size="90" />
           
           <div className="poa__counter-unit">
             <h1>951</h1>
@@ -47,7 +47,7 @@ const Pool = () => {
 
         <div className="poa__pool-sub_counter">
           <h1>Pool ID <span><img src={copy} alt="copy"/></span></h1>
-          <h2 className="poa_pool-text">pool1dqlgn7smeh snj5ztz8almy2036lfhrdjv79 nmg9tmje0zzt620h</h2>
+          <h2 className="poa_pool-text">pool1dqlgn7smehsnj5ztz8almy2036lfhrdjv79nmg9tmje0zzt620h</h2>
         </div>
 
         <div className="poa__pool-buttons">

@@ -106,3 +106,27 @@
   }
 }
 
+@media (min-width: 767px) and (max-width: 920px) { 
+  .poa__steps-header h1 {
+    font-size: 80px;
+  }
+
+  .poa-steps__container {
+    display: block;
+    width: 100%;
+  }
+
+  .criss {
+    display: none;
+  }
+
+  .cross {
+    display: none;
+  }
+
+  .poa-steps__sub {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+  }
+}

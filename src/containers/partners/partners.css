@@ -77,3 +77,24 @@
     height: auto;
   }
 }
+
+
+@media (min-width: 767px) and (max-width: 920px) {
+
+  .poa_partners-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0.5em;
+    width: 540px;
+  }
+
+  .poa_partners-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0.5em;
+    width: 540px;
+  }
+
+}

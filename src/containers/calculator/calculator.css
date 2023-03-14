@@ -131,3 +131,33 @@
     padding-bottom: 24px;
   }
 }
+
+
+@media (min-width: 767px) and (max-width: 920px) { 
+  .poa__why-container-first {
+    text-align: center;
+    padding: 0;
+    width: fit-content;
+    margin-top: 3em;
+  }
+
+  .poa__why {
+    width: 700px;
+  }
+
+  .poa__first {
+    display: block;
+    text-align: center;
+    width: 350px;
+  }
+
+  .poa__first img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .second {
+    display: block;
+    padding: 0;
+  }
+}
