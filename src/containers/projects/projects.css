@@ -104,6 +104,25 @@
   border-bottom-left-radius: 16px;
 }
 
+@media screen and (max-width: 650px) {
+
+  .poa__projects-container {
+    padding: 1rem !important;
+  }
+
+  .poa__projects-header h1 {
+    font-size: 64px !important;
+  }
+
+  .poa__projects__second-container {
+    display: block !important;
+  }
+
+  .poa__projects-module p {
+    width: auto !important;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .poa__projects-container {
     margin-top: 1em;

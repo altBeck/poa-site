@@ -111,6 +111,10 @@
   .contact {
     max-width: 100%;
   }
+
+  .poa__contact-intro h1 {
+    font-size: 60px;
+  }
 }
 
 @media screen and (max-width: 650px) {
