@@ -4,7 +4,10 @@ import logo from '../../assets/poa-logo.svg';
 import './navbar.css';
 
 const Menu = () => (
-  <><p><a href="#about">About Us</a></p><p><a href="#projects">Projects</a></p><p><a href="#discover">Discover Africa</a></p><button type="button" className="poa__navbar-links_stake"><a href="#stake">Start Staking</a></button></>
+  <><p><a href="#about">About Us</a></p>
+  <p><a href="#projects">Projects</a></p>
+  <p><a href="#discover">Discover Africa</a></p>
+  <button type="button" className="poa__navbar-links_stake"><a href="#stake">Start Staking</a></button></>
 )
 
 const Navbar = () => {

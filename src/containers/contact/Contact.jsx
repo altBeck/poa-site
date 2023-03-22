@@ -24,50 +24,53 @@ const Contact = () => {
   };
 
   return (
-    <div className="poa__contact-container">
-      <div className="poa__contact-intro">
-        <h1 className="font-face-cm">Contact <span>Us</span></h1>
-        <p>We’re here to help! Fill in your details, and we’ll reach out shortly.</p>
-      </div>
-      <form onSubmit={handleSubmit}>
-        <div className="poa__form">
-          <label className="form-label">
-            <span>Name</span>
-            <input type="text" value={name} onChange={handleNameChange} />
-          </label>
-          <br />
-          <label className="form-label">
-            <span>Email</span>
-            <input type="email" value={email} onChange={handleEmailChange} style={zero} />
-          </label>
-          <br />
-        </div>
+    <div className="contact">
 
-        <div className="poa__form">
-          <label className="form-label">
-            <span>Type</span>
-            <select value={type} onChange={handleTypeChange}>
-              <option value="Staking">Staking</option>
-              <option value="Partnerships">Partnerships</option>
-              <option value="Culture/NFT Exchange Spaces">Culture/NFT Exchange Spaces</option>
-            </select>
-          </label>
-          <br />
-          <label className="form-label">
-            <span>Subject</span>
-            <input type="text" value={subject} onChange={handleSubjectChange} style={zero} />
-          </label>
-          <br />
+      <div className="poa__contact-container">
+        <div className="poa__contact-intro">
+          <h1 className="font-face-cm">Contact <span>Us</span></h1>
+          <p>We’re here to help! Fill in your details, and we’ll reach out shortly.</p>
         </div>
-        <div>
-          <label className="form-label-mint">
-            <span>Message</span>
-            <textarea value={message} onChange={handleMessageChange} placeholder="Type your message..." />
-          </label>
-          <br />
-        </div>
-        <button className="contact-button" type="submit">Submit</button>
-      </form>
+        <form className="form" onSubmit={handleSubmit}>
+          <div className="poa__form">
+            <label className="form-label">
+              <span>Name</span>
+              <input type="text" value={name} onChange={handleNameChange} />
+            </label>
+            <br />
+            <label className="form-label">
+              <span>Email</span>
+              <input type="email" value={email} onChange={handleEmailChange} style={zero} />
+            </label>
+            <br />
+          </div>
+
+          <div className="poa__form">
+            <label className="form-label">
+              <span>Type</span>
+              <select value={type} onChange={handleTypeChange}>
+                <option value="Staking">Staking</option>
+                <option value="Partnerships">Partnerships</option>
+                <option value="Culture/NFT Exchange Spaces">Culture/NFT Exchange Spaces</option>
+              </select>
+            </label>
+            <br />
+            <label className="form-label">
+              <span>Subject</span>
+              <input type="text" value={subject} onChange={handleSubjectChange} style={zero} />
+            </label>
+            <br />
+          </div>
+          <div className="form-label-mint">
+            <label>
+              <span>Message</span>
+              <textarea value={message} onChange={handleMessageChange} placeholder="Type your message..." />
+            </label>
+            <br />
+          </div>
+          <button className="contact-button" type="submit">Submit</button>
+        </form>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,22 @@
+.poa__main-footer {
+  background: black;
+  color: white;
+  padding-top: 50em;
+  margin-top: -37.5em;
+  position: relative;
+  z-index: -3;
+}
+
+.poa__main-footer > div {
+  position: absolute;
+  z-index: 6;
+  background: black;
+  width: 100%;
+}
+
+.section li{
+  margin-bottom: 12px;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}

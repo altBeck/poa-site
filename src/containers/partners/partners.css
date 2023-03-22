@@ -26,6 +26,18 @@
   margin-right: auto;
 }
 
+.poa_partners-one img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.poa_partners-two img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .poa_partners-two {
   max-width: 900px;
   padding-top: 20px;

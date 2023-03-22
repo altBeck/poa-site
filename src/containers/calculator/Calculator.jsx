@@ -20,7 +20,7 @@ const Calculator = () => {
           </div>
         </div>
 
-        <hr width="1" size="152" />
+        <div className="vertical" ></div>
 
         <div className="poa__first second">
           <img src={clock} alt="clock" />
@@ -32,14 +32,9 @@ const Calculator = () => {
 
       </div>
 
-      <div className="line">
-
-      <hr width="455" size="1" />
-      </div>
-
-      <div className="line-1">
-
-      <hr width="455" size="1" />
+      <div className="line-set">
+        <div className="line"></div>
+        <div className="line"></div>
       </div>
 
       <div className="poa__why-container-second">
@@ -51,7 +46,7 @@ const Calculator = () => {
           </div>
         </div>
 
-        <hr width="1" size="152" />
+        <div className="vertical"></div>
 
         <div className="poa__first second">
           <img src={culture} alt="culture" />

@@ -87,7 +87,7 @@
 }
 
 
-@media (min-width: 767px) and (max-width: 920px) {
+@media screen and (max-width: 850px) {
   .poa__team--header h1 {
     padding-top: 1em;
     padding-bottom: 0.4em;
@@ -100,5 +100,20 @@
 
   .poa__team-members {
     padding-bottom: 2em;
+  }
+}
+
+
+@media screen and (max-width: 1280px) {
+  .poa__team--header h1 {
+    font-size: 80px;
+  }
+
+  .poa__team--sub-container {
+    max-width: 100%;
+  }
+
+  .poa__team--sub-container img {
+    width: 60%;
   }
 }

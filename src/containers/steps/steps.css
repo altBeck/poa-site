@@ -69,7 +69,7 @@
 }
 
 
-@media (min-width: 359px) and (max-width: 640px) {
+@media screen and (max-width: 650px) {
   .poa__steps-container {
     width: 100%;
     margin-top: 8em;
@@ -106,14 +106,14 @@
   }
 }
 
-@media (min-width: 767px) and (max-width: 920px) { 
+@media screen and (max-width: 850px) { 
   .poa__steps-header h1 {
     font-size: 80px;
   }
 
   .poa-steps__container {
     display: block;
-    width: 100%;
+    width: 100% !important;
   }
 
   .criss {
@@ -128,5 +128,33 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4em;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+
+  .poa__steps-container {
+    margin-top: 4em;
+  }
+
+  .poa-steps__container {
+    width: 100%;
+  }
+
+  .poa__steps-header h1 {
+    font-size: 80px;
+  }
+
+  .poa-steps__sub p {
+    width: 60%;
+  }
+
+  .cross {
+    width: 200px;
+  }
+
+  .criss {
+    width: 200px;
+    margin-top: -8em;
   }
 }

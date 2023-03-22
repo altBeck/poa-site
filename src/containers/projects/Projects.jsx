@@ -38,7 +38,7 @@ const Projects = () => {
           <div className="poa__projects-module one">
             <h1>African projects bootstrap funds</h1>
             <p>Proof Of Africa cares about the African dream and seeks to give a chance to the uprising giants of Africa. A monthly grant of 1000 ADA from profits generated from our on-chain activities was opened in 2020 to all initiatives, projects or business ideas with a solid plan and a competent team.</p>
-            <button className="poa__projects-btn">POA Grants</button>
+            <button className="poa__projects-btn grant-btn">POA Grants</button>
           </div>
 
           <img className="project-card" src={img} alt="grant card"/>

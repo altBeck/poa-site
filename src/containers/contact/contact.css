@@ -1,3 +1,13 @@
+.contact {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  border: 2px solid black;
+  padding: 4em;
+  border-radius: 8px;
+  margin-top: 8em;
+}
 .poa__contact-container {
   max-width: 900px;
   margin-left: auto;
@@ -26,7 +36,7 @@
   background: var(--color-accent);
 }
 
-form {
+.form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,4 +103,88 @@ form {
   border-radius: 64px;
   background-color: var(--color-accent);
   border: 0;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 350px) {
+  .contact {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+
+  .contact {
+    max-width: 100%;
+    padding: 24px;
+    margin: 1rem;
+  }
+
+  .poa__form input {
+    margin-bottom: 16px;
+  }
+
+  .form-label input {
+    margin-bottom: 16px;
+  }
+
+  .form-label select {
+    margin-bottom: 16px;
+  }
+
+  .poa__form {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .poa__form > div {
+    margin-bottom: 16px;
+  }
+
+  .poa__form input {
+    width: 100%;
+  }
+
+  .poa__form select {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .form-label-mint {
+    width: 100%;
+  }
+
+  .form-label-mint textarea {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+
+  .contact-button {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+}
+
+
+@media screen and (max-width: 850px) {
+
+}
+
+
+@media screen and (max-width: 1280px) {
+  .contact {
+    max-width: 90%;
+    padding: 2em;
+  }
+
+  .form-label-mint textarea {
+    margin-bottom: 40px;
+  }
+
+  .poa__contact-intro h1 {
+    font-size: 80px;
+  }
 }

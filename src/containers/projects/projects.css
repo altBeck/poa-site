@@ -180,7 +180,7 @@
 
 }
 
-@media (min-width: 767px) and (max-width: 920px) { 
+@media screen and (max-width: 1280px) { 
 
   .poa__projects-header {
     padding-top: 3rem;
@@ -193,7 +193,7 @@
   .poa__projects-container {
     padding: 2rem;
     margin-top: 4em;
-    padding-bottom: 22em;
+    padding-bottom: 6em;
   }
 
   .poa__projects__first-container {
@@ -206,6 +206,16 @@
 
   .one {
     width: auto;
+    padding: 1.4rem;
+  }
+
+  .poa__projects-module-one {
+    margin-right: 12px;
+    width: 100%;
+  }
+
+  .poa__projects-module-one p {
+    font-size: 18px;
   }
 
   .poa__projects-module-one img {
@@ -213,8 +223,19 @@
   }
 
   .poa__projects-module-two {
-    width: auto;
-    margin-top: 2em;
+    width: 100%;
+  }
+
+  .poa__projects-module h1 {
+    font-size: 24px;
+  }
+
+  .poa__projects-module p {
+    font-size: 18px;
+  }
+
+  .grant-btn {
+    margin-top: -2em;
   }
 
   .poa__projects__first-container img {
@@ -225,11 +246,12 @@
 
   .project-card {
     width: 100%;
-    margin-top: 0;
+    margin-top: -.5em;
   }
 
   .poa__projects__second-container {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
