@@ -13,31 +13,31 @@ const Pool = () => {
             <h1>POA</h1>
             <h4>Ticker</h4>
           </div>
-          <hr className="line-hr" width="1" size="90" />
+          <div className="line-hr hg"></div>
 
           <div className="poa__counter-unit">
             <h1>10k₳</h1>
             <h4>Pledge</h4>
           </div>
-          <hr className="line-hr" width="1" size="90" />
+          <div className="line-hr hg"></div>
 
           <div className="poa__counter-unit">
             <h1>3.75M₳</h1>
             <h4>Active stake</h4>
           </div>
-          <hr className="line-hr" width="1" size="90" />
+          <div className="line-hr hg"></div>
 
           <div className="poa__counter-unit">
             <h1>303</h1>
             <h4>Delegators</h4>
           </div>
-          <hr className="line-hr" width="1" size="90" />
+          <div className="line-hr hg"></div>
 
           <div className="poa__counter-unit">
             <h1>3.13%</h1>
             <h4>ROS</h4>
           </div>
-          <hr className="line-hr" width="1" size="90" />
+          <div className="line-hr hg"></div>
           
           <div className="poa__counter-unit">
             <h1>951</h1>

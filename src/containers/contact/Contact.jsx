@@ -33,19 +33,22 @@ const Contact = () => {
         </div>
         <form className="form" onSubmit={handleSubmit}>
           <div className="poa__form">
-            <label className="form-label">
-              <span>Name</span>
-              <input type="text" value={name} onChange={handleNameChange} />
-            </label>
-            <br />
-            <label className="form-label">
-              <span>Email</span>
-              <input type="email" value={email} onChange={handleEmailChange} style={zero} />
-            </label>
-            <br />
+            <div className="formie">
+
+              <label className="form-label">
+                <span>Name</span>
+                <input type="text" value={name} onChange={handleNameChange} />
+              </label>
+              <br />
+              <label className="form-label">
+                <span>Email</span>
+                <input type="email" value={email} onChange={handleEmailChange} style={zero} />
+              </label>
+              <br />
+            </div>
           </div>
 
-          <div className="poa__form">
+          <div className="poa__form out">
             <label className="form-label">
               <span>Type</span>
               <select value={type} onChange={handleTypeChange}>
@@ -55,7 +58,7 @@ const Contact = () => {
               </select>
             </label>
             <br />
-            <label className="form-label">
+            <label className="form-label in">
               <span>Subject</span>
               <input type="text" value={subject} onChange={handleSubjectChange} style={zero} />
             </label>

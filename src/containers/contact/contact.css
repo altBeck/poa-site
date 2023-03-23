@@ -42,6 +42,10 @@
   align-items: center;
 }
 
+.formie {
+  display: flex;
+}
+
 .poa__form {
   display: flex;
   margin-bottom: 24px;
@@ -63,6 +67,10 @@
   border-radius: 8px;
   border: 1px solid black;
   margin-right: 24px;
+}
+
+.form-label-mint {
+  text-align: center;
 }
 
 .form-label select {
@@ -121,16 +129,8 @@
 
   .contact {
     max-width: 100%;
-    padding: 24px;
+    padding: 16px !important;
     margin: 1rem;
-  }
-
-  .poa__form input {
-    margin-bottom: 16px;
-  }
-
-  .form-label input {
-    margin-bottom: 16px;
   }
 
   .form-label select {
@@ -143,12 +143,16 @@
     margin-bottom: 16px;
   }
 
-  .poa__form > div {
-    margin-bottom: 16px;
+  .out {
+    display: block !important;
   }
 
-  .poa__form input {
-    width: 100%;
+  .form {
+    width: auto !important;
+  }
+
+  .formie {
+    display: block !important;
   }
 
   .poa__form select {
@@ -174,6 +178,50 @@
 
 
 @media screen and (max-width: 850px) {
+  .contact {
+    max-width: 90%;
+  }
+
+  .form {
+    width: fit-content;
+  }
+
+  .formie {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .poa__form {
+    max-width: 100%;
+  }
+
+  .form-label {
+    width: 44%;
+  }
+
+  .form-label input {
+    width: 300px;
+  }
+
+  .form-label select {
+    width: 300px;
+  }
+
+  .form-label-mint {
+    width: 100%;
+  }
+
+  .form-label-mint textarea {
+    width: 100%;
+  }
+
+  .out {
+    display: flex;
+    justify-content: space-between;
+  }
 
 }
 
