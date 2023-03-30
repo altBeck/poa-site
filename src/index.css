@@ -14,3 +14,8 @@
   src: local("Computer-says-no"), url("./fonts/Computer-says-no.ttf") format("truetype");
   font-weight: normal;
 }
+
+
+a {
+  color: #000;
+}

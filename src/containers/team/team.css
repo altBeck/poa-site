@@ -8,10 +8,11 @@
 }
 
 .poa__team--header h1 {
-  padding-top: 1.5em;
-  padding-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
   font-size: 104px;
   font-weight: 100;
+  word-spacing: -16px;
 }
 
 .poa__team--sub-container {

@@ -24,12 +24,12 @@
   display: flex;
   padding: 4rem;
   margin-top: -30em;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .poa__calculator-one h1 {
   font-weight: 100;
-  font-size: 70px;
+  font-size: 80px;
 }
 
 .poa__calculator-one p {
@@ -40,8 +40,7 @@
 }
 
 .poa__calculator-one {
-  width: 400px;
-  margin-right: 16em;
+  width: 580px;
 }
 
 .poa__calculator-form {
