@@ -24,6 +24,7 @@ const Contact = () => {
   };
 
   return (
+    
     <div className="contact">
 
       <div className="poa__contact-container">
@@ -67,7 +68,7 @@ const Contact = () => {
           <div className="form-label-mint">
             <label>
               <span>Message</span>
-              <textarea value={message} onChange={handleMessageChange} placeholder="Type your message..." />
+              <textarea value={message} onChange={handleMessageChange} placeholder="Type your message..."/>
             </label>
             <br />
           </div>

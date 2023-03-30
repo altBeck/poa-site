@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './footer.css';
 import yt from '../../assets/poa-logo-yt.svg';
+import aw from '../../assets/arrow.svg';
 
 
 function Footer() {
@@ -26,24 +27,31 @@ function Footer() {
 
             <form onSubmit={handleSubmit}>
               <label htmlFor="email"></label>
-              <input type="email" id="email" value={email} onChange={handleChange} required />
-              <button type="submit">Subscribe</button>
+              <input type="email" id="email" placeholder="yourname@email.com" value={email} onChange={handleChange} required />
+              <button type="submit">Subscribe<img src={aw} alt="arrow"/></button>
             </form>
 
           </div>
 
-          <div className="poa-section-links">
-            <div className="section">
+          <div className="poa--section-links">
+            <div className="links">
               <h2>Company</h2>
-              <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#discover">Discover Africa</a></li>
-                <li><a href="/#">Cultural Spaces</a></li>
-              </ul>
+              <p href="#about">About Us</p>
+              <p href="#projects">Projects</p>
+              <p href="#discover">Discover Africa</p>
+              <p href="/#">Cultural Spaces</p>
             </div>
-            <div></div>
+
+            <div className="links">
+              <h2>Follow Us</h2>
+              <p href="#about">About Us</p>
+              <p href="#projects">Projects</p>
+              <p href="#discover">Discover Africa</p>
+              <p href="/#">Cultural Spaces</p>
+            </div>
           </div>
+
+
         </div>
 
         <div></div>
