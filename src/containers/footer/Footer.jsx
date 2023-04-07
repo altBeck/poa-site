@@ -54,7 +54,9 @@ function Footer() {
 
         </div>
 
-        <div></div>
+        <div className="final-note">
+          <p>By subscribing you agree to our Privacy Policy and provide consent to receive updates from our company.</p>
+        </div>
       </div>
     </div>
   )
