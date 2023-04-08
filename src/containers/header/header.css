@@ -70,7 +70,7 @@
 
 .slider-content {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 30%;
   transform: translate(-50%, -50%);
   text-align: left;
@@ -139,7 +139,8 @@
   }
 
   .poa__header-container {
-    display: block;
+    display: block !important;
+    max-width: 100% !important;
   }
 
   .poa__header-container_text h1 {
@@ -154,7 +155,7 @@
   }
 
   .poa__header_hero-img img {
-    width: 100%;
+    width: 80%;
     height: auto;
     padding-top: 50px;
     margin-right: auto;
@@ -170,20 +171,85 @@
 }
 
 @media screen and (max-width: 650px) {
+  poa__header {
+    padding: 0;
+  }
+
   .poa__header_hero-img img {
-    width: 100%;
+    width: 80% !important;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 4em;
   }
 
   .poa__header-container {
-    display: block;
-    padding: 0px !important;
+    display: block !important;
+    padding-left: 1.5rem !important;
+    padding-right: 0 !important;
   }
 
+  .poa__header-container_text {
+    padding-left: 1rem;
+  }
 
   .poa__header-container_text h1 {
+    font-size: 64px !important;
+  }
+
+  .slider-content {
+    position: relative;
+    top: 0;
+    left: 45%;
+    max-width: 80%;
+  }
+
+  .slider-image img {
+    height: 400%;
+    width: 100%;
+  }
+
+  .slider-content h1 {
     font-size: 64px;
+    width: 100%
+  }
+
+  .slider-content p {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .coin {
+    padding: 1rem;
+    text-align: left;
+  }
+
+  .coin-content h1 {
+    font-size: 64px;
+    line-height: 40px;
+    text-align: left;
+  }
+
+  .coin-content p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    font-family: Work Sans;
+    text-align: left;
+    margin: 0;
+    width: 100%;
+  }
+
+  .coin-img {
+    padding: 1rem !important;
+  }
+
+  .coin-img img {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 5em;
+    width: 120% !important;
+    height: auto;
+    text-align: center;
   }
 }
 
@@ -195,7 +261,7 @@
   }
 
   .poa__header-container_text h1 {
-    font-size: 60px;
+    font-size: 60px !important;
   }
 
   .poa__header_hero-img img {
