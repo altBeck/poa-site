@@ -19,7 +19,7 @@ const Projects = () => {
         <div className="poa__projects-module slide">
           <h1>African Blockchain Center for Developers</h1>
           <p>Established in 2020, the Academy seeks to educate and train young African developers at an elite level in blockchain technology, enabling them harness the power of blockchain technology to implement decentralized innovations.</p>
-          <button className="poa__projects-btn">See summary here</button>
+          <button className="poa__projects-btn"><a href="https://www.abcdevs.com/" target="_blank" rel="noreferrer">Learn more</a></button>
         </div>
         <img src={abcd} alt="abcd"/>
       </div>
@@ -29,7 +29,7 @@ const Projects = () => {
           <div className="poa__projects-module one">
             <h1>Meetups</h1>
             <p>Did you know that our first physical meet up took place in the city of Port Harcourt? It's worth noting people came from all over Nigeria to participate and learn first hand about Blockchain technology, Cardano stakepools, and how to launch one successfully.</p>
-            <button className="poa__projects-btn">See summary here</button>
+            <button className="poa__projects-btn"><a href="https://www.youtube.com/watch?v=QNSzzw6QG9I" target="_blank" rel="noreferrer">See summary here</a></button>
           </div>
           <img src={card} alt="cardano"/>
         </div>
@@ -38,7 +38,8 @@ const Projects = () => {
           <div className="poa__projects-module one">
             <h1>African projects bootstrap funds</h1>
             <p>Proof Of Africa cares about the African dream and seeks to give a chance to the uprising giants of Africa. A monthly grant of 1000 ADA from profits generated from our on-chain activities was opened in 2020 to all initiatives, projects or business ideas with a solid plan and a competent team.</p>
-            <button className="poa__projects-btn grant-btn">POA Grants</button>
+
+            <button className="poa__projects-btn"><a href="https://www.youtube.com/playlist?list=PLDhPRXazK0kZuRfxFd04oLDyM5YjmPjmq" target="_blank" rel="noreferrer">POA Grants</a></button>
           </div>
 
           <img className="project-card" src={img} alt="grant card"/>
