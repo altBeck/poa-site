@@ -52,7 +52,7 @@ const Pool = () => {
 
         <div className="poa__pool-buttons">
         <button><a href="https://www.adapool.org/" target="_blank" rel="noreferrer">View on Adapool</a></button>
-        <button><a href="https://www.pooltools.io/" target="_blank" rel="noreferrer">View on Pooltools</a></button>
+        <button><a href="https://www.pooltool.io/" target="_blank" rel="noreferrer">View on Pooltools</a></button>
         </div>
       </div>
     </div>
