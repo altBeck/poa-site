@@ -74,6 +74,10 @@
   justify-content: center;
 }
 
+.poa__pool-buttons a {
+  text-decoration: none;
+}
+
 .poa__pool-buttons button {
   padding: 16px 32px;
   margin: 14px;
