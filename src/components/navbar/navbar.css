@@ -108,8 +108,10 @@
   }
 
   .poa__navbar-menu_container {
-    width: 100%;
     align-items: baseline;
+    width: 100vw;
+    top: 40px;
+    z-index: 1;
   }
 }
 
