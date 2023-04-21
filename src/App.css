@@ -10,7 +10,11 @@
 }
 
 body {
-  background: var(--color-white)
+  background: var(--color-white);
+}
+
+#root {
+  overflow-x: hidden;
 }
 
 .section__padding {

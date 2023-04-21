@@ -108,17 +108,19 @@
     margin-right: auto;
     margin-top: 4em;
   }
+
   .poa__calculator {
     display: block;
     padding: 0;
-    width: 340px;
+    padding-top: 1rem !important;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
 
   .poa__calculator-one {
     display: block;
-    width: 340px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -151,6 +153,8 @@
   .poa__calculator-form {
     padding: 1rem;
     width: 340px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     margin-left: auto;
     margin-right: auto;
     position: relative;

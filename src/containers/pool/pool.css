@@ -109,6 +109,10 @@
     display: none;
   }
 
+  .poa_pool-text {
+    line-break: anywhere;
+  }
+
   .poa__pool-container-head {
     margin-top: -50px;
     font-size: 48px;

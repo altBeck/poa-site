@@ -137,6 +137,10 @@
     margin-bottom: 16px;
   }
 
+  .form-label input {
+    width: 100% !important;
+  }
+
   .poa__form {
     display: block;
     width: 100%;
@@ -156,7 +160,7 @@
   }
 
   .poa__form select {
-    width: 100%;
+    width: 100% !important;
     margin-right: 0;
   }
 
