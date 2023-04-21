@@ -182,34 +182,30 @@
 
   .poa__header_hero-img img {
     width: 80% !important;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 4em;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding-top: 4em !important;
   }
 
   .poa__header-container {
     display: block !important;
     padding-left: 1.5rem !important;
-    padding-right: 0 !important;
-  }
-
-  .poa__header-container_text {
-    padding-left: 1rem;
+    padding-right: 1.5rem !important;
   }
 
   .poa__header-container_text h1 {
-    font-size: 64px !important;
+    font-size: 52px !important;
   }
 
   .slider-content {
     position: relative;
-    top: 0;
-    left: 45%;
-    max-width: 80%;
+    top: 0 !important;
+    left: 45% !important;
+    max-width: 80% !important;
   }
 
   .slider-image img {
-    height: 400%;
+    height: 400% !important;
     width: 100% !important;
   }
 
@@ -265,7 +261,7 @@
   }
 
   .poa__header-container_text h1 {
-    font-size: 60px !important;
+    font-size: 60px;
   }
 
   .poa__header_hero-img img {
@@ -294,6 +290,14 @@
 }
 
 @media screen and (max-width: 1280px) {
+  .poa__second {
+    display: block;
+  }
+
+  .coin-img img {
+    height: auto;
+  }
+  
   .poa__header-container {
     padding-left: 2rem;
     padding-right: 2rem;

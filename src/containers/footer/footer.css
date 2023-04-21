@@ -136,6 +136,15 @@
     display: block;
   }
 
+  .poa__footer-section {
+    width: 100% !important;
+  }
+
+  .some-hr {
+    display: block;
+    margin-top: 2rem;
+  }
+
   .poa__footer-section img {
     width: 50%;
   }
@@ -160,10 +169,23 @@
   .poa--section-links {
     justify-content: space-between;
     padding-top: 2em;
+    flex-direction: column;
   }
 
   .links {
     margin: 0;
+  }
+
+  .links__social {
+    padding-top: 2rem;
+  }
+
+  .footer__three-one {
+    flex-direction: column;
+  }
+
+  .footer__three-one p {
+    padding: 10px;
   }
 }
 

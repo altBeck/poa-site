@@ -61,7 +61,7 @@ const Footer = () => {
 
         </div>
 
-        <hr />
+        <hr className="some-hr"/>
         
         <div className="footer__three">
             <p>2023 Proof of Africa. All right reserved.</p>

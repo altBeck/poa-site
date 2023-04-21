@@ -27,9 +27,11 @@ const Header = () => {
         <Slider {...settings}>
           
           <div className="poa__header-container">
-            <div className="poa__header-container_text">
-              <h1 className="font-face-cm">Are you interested in staking?</h1>
-              <h3>Earn $ADA rewards while discovering Africa</h3>
+            <div className="poa__second">
+              <div className="poa__header-container_text">
+                <h1 className="font-face-cm">Are you interested in staking?</h1>
+                <h3>Earn $ADA rewards while discovering Africa</h3>
+              </div>
               <button type="button" className="poa__header-btn">Get started</button>
             </div>
 
