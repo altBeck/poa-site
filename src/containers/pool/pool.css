@@ -58,6 +58,10 @@
   font-family: var(--font-family);
 }
 
+.poa__pool-sub_counter img {
+  cursor: pointer;
+}
+
 .poa__pool-sub_counter h1 {
   font-weight: 400;
   margin-bottom: 5px;

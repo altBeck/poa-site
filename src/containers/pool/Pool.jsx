@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './pool.css';
 import copy from '../../assets/copy.svg';
 
-const Pool = () => {
+
+function Pool() {
+
+  function handleCopy() {
+    const textToCopy ='pool1dqlgn7smehsnj5ztz8almy2036lfhrdjv79nmg9tmje0zt620h';
+    navigator.clipboard.writeText(textToCopy);
+  }
+
   return (
     <div className="poa__pool-container">
       <h1 className="font-face-cm poa__pool-container-head">Our Pool Information</h1>
@@ -45,9 +52,9 @@ const Pool = () => {
           </div>
         </div>
 
-        <div className="poa__pool-sub_counter">
-          <h1>Pool ID <span><img src={copy} alt="copy"/></span></h1>
-          <h2 className="poa_pool-text">pool1dqlgn7smehsnj5ztz8almy2036lfhrdjv79nmg9tmje0zzt620h</h2>
+        <div onClick={handleCopy} className="poa__pool-sub_counter">
+          <h1>Pool ID <span><img src={copy} alt="copy" onClick={handleCopy}/></span></h1>
+          <span className="poa_pool-text">pool1dqlgn7smehsnj5ztz8almy2036lfhrdjv79nmg9tmje0zzt620h</span>
         </div>
 
         <div className="poa__pool-buttons">

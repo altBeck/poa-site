@@ -104,6 +104,10 @@
   padding: 4rem;
 }
 
+.coin-img img {
+  width: 100%;
+}
+
 .coin-content {
   text-align: center;
 }
@@ -205,7 +209,7 @@
 
   .slider-image img {
     height: 400%;
-    width: 100%;
+    width: 100% !important;
   }
 
   .slider-content h1 {
@@ -257,7 +261,6 @@
 
   .poa__header-container {
     padding-top: 2rem;
-    padding-left: 0 !important;
   }
 
   .poa__header-container_text h1 {
@@ -272,6 +275,20 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 18px;
+  }
+
+  .slider-image img {
+    height: 160%;
+  }
+
+  .slider-content {
+    top: 60%;
+    left: 35%;
+    max-width: 70%;
+  }
+
+  .slider-content h1 {
+    font-size: 64px;
   }
 }
 

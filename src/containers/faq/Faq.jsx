@@ -56,8 +56,8 @@ function FAQ() {
       <AccordionItem
         question="What are epochs and how long are they?"
         answer="An epoch is a unit of time as marked by the Cardano protocol, and each of them lasts five days.
-Every epoch is divided into 432,000 units known as slots, each slot is 1 second long.
-You can find the current status of epochs and slot on third-party sites like Adapool.org or pooltools.io"
+        Every epoch is divided into 432,000 units known as slots, each slot is 1 second long.
+        You can find the current status of epochs and slot on third-party sites like Adapool.org or pooltools.io"
       />
     </div>
   );

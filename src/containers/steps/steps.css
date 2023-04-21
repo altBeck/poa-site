@@ -19,9 +19,11 @@
 
 .poa-steps__container {
   display: flex;
-  width: 1205px;
+  width: 1300px;
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .poa-steps__sub {
@@ -110,6 +112,7 @@
 @media screen and (max-width: 850px) { 
   .poa__steps-header h1 {
     font-size: 80px;
+    padding-top: 2em;
   }
 
   .poa-steps__container {
@@ -144,6 +147,7 @@
 
   .poa__steps-header h1 {
     font-size: 80px;
+    padding-top: .5em;
   }
 
   .poa-steps__sub p {

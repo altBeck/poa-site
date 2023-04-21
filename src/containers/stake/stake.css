@@ -49,11 +49,12 @@
   box-shadow: 113px 129px 69px rgba(112, 109, 97, 0.01), 28px 32px 43px rgba(112, 109, 97, 0.09);
   border-radius: 16px;
   font-family: var(--font-family);
+  width: 400px;
 }
 
 .poa__form-head {
   text-align: center;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 500;
   margin-bottom: 32px;
 }
@@ -62,10 +63,14 @@
   display: flex;
 }
 
+.poa_form-one {
+  justify-content: space-between;
+}
+
 .poa_form-one h1 {
   margin-right: 6em;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 18px;
   margin-bottom: 16px;
 }
 
@@ -83,6 +88,11 @@
 
 .poa_form-two {
   padding-top: 1em;
+  flex-direction: column;
+}
+
+.poa_form-two div {
+  justify-content: space-between;
 }
 
 .poa_form-three {
@@ -180,6 +190,7 @@
     margin-right: auto;
     margin-top: -55em;
     margin-bottom: 20em;
+    padding-top: 1em;
   }
 
   .poa__calculator-one {
@@ -211,4 +222,10 @@
     margin-right: auto;
     margin-top: 3em;
   }
+}
+
+@media screen and  (max-width: 1280px) {
+  .poa__calculator {
+    padding-top: 10em;
+  }  
 }
