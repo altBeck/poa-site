@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './contact.css';
 
+import { db } from '../../firebase.js';
+
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -16,15 +18,36 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle submission logic here
+
+    db.collection("poapool")
+      .add({
+        email,
+        name,
+        type,
+        subject,
+        message,
+      }).then(() => {
+        setMessage(true)
+        //  setTimeout(() => {
+        //    setMessage(false)
+        //    }, 5000); 
+      }).catch((error) => {
+        alert(error.message)
+      })
+
+    setEmail("")
+    setName('')
+    setMessage('')
+    setType('')
+    setSubject('')
   };
 
-  const zero= {
+  const zero = {
     margin: '0'
   };
 
   return (
-    
+
     <div className="contact">
 
       <div className="poa__contact-container">
@@ -68,7 +91,7 @@ const Contact = () => {
           <div className="form-label-mint">
             <label>
               <span>Message</span>
-              <textarea value={message} onChange={handleMessageChange} placeholder="Type your message..."/>
+              <textarea value={message} onChange={handleMessageChange} placeholder="Type your message..." />
             </label>
             <br />
           </div>

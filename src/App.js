@@ -1,28 +1,19 @@
 import React from 'react';
-
-import { Team, Partners, Footer, Header, Projects, Stake, Steps, Calculator, Contact, Faq, Pool } from './containers';
-import { About, Navbar, } from './components';
 import './App.css';
+import Home from './pages/Home';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Discover from './pages/Discover';
 
 const App = () => {
   return (
-    <div className="App">
-      <div>
-        <Navbar />
-        <Header />
-        <About />
-      </div>
-      <Calculator />
-      <Partners />
-      <Pool />
-      <Stake />
-      <Steps />
-      <Projects />
-      <Team />
-      <Faq />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/discover" element={<Discover />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   )
 }
 

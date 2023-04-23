@@ -2,18 +2,19 @@ import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/poa-logo.svg';
 import down from '../../assets/down.svg';
+import { Link } from 'react-router-dom';
 
 import './navbar.css';
 
 const Menu = () => (
   <><p><a href="#about">About Us</a></p>
-  <p><a href="#projects">Projects</a></p>
-  <p><a href="#discover">Discover Africa</a></p>
-  <button type="button" className="poa__navbar-links_stake"><a href="#stake">Start Staking</a></button></>
+    <p><a href="#projects">Projects</a></p>
+    <p><Link to="/discover">Discover Africa</Link></p>
+    <button type="button" className="poa__navbar-links_stake"><a href="#stake">Start Staking</a></button></>
 )
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState (false);
+  const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
     <div className="poa__navbar">
@@ -29,8 +30,8 @@ const Navbar = () => {
 
       <div className="poa__navbar-menu">
         {toggleMenu
-          ? <RiCloseLine color="#000" size={27} onClick={() => setToggleMenu(false)}/>
-          : <RiMenu3Line color="#000" size={27} onClick={() => setToggleMenu(true)}/>
+          ? <RiCloseLine color="#000" size={27} onClick={() => setToggleMenu(false)} />
+          : <RiMenu3Line color="#000" size={27} onClick={() => setToggleMenu(true)} />
         }
         {toggleMenu && (
           <div className="poa__navbar-menu_container scale-up-center">
