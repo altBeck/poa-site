@@ -8,7 +8,7 @@ import img from '../../assets/poa-card.png';
 
 const Projects = () => {
   return (
-    <div className="poa__projects-container">
+    <div id="projects" className="poa__projects-container">
       <div className="poa__projects_sub-container">
 
       <div className="poa__projects-header">
