@@ -1,0 +1,239 @@
+.carousel {
+  padding: 1rem;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .carousel {
+    padding: 3rem;
+    height: 1100px;
+    padding-top: 1rem;
+    margin-bottom: 9rem;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .carousel {
+    height: 700px;
+  }
+}
+.carousel__tribe {
+  margin-top: 4rem;
+}
+@media (min-width: 768px) {
+  .carousel__tribe {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .carousel__tribe {
+    align-items: flex-start;
+  }
+}
+@media (min-width: 768px) {
+  .carousel__tribe-one {
+    width: 50%;
+    margin-top: 8rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .carousel__tribe-one {
+    margin-top: 0;
+  }
+}
+.carousel__tribe h3 {
+  font-family: "Computer says no";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 40px;
+  /* identical to box height, or 71% */
+  /* white */
+  color: #FFFFFF;
+}
+@media (min-width: 768px) {
+  .carousel__tribe h3 {
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 68px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .carousel__tribe h3 {
+    font-size: 2.3rem;
+  }
+}
+.carousel__tribe p {
+  margin-top: 1rem;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: -0.04em;
+  /* white */
+  color: #FFFFFF;
+}
+@media (min-width: 768px) {
+  .carousel__tribe p {
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 68px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    letter-spacing: -0.04em;
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .carousel__tribe p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+.carousel__tribe-two {
+  margin-top: 2rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .carousel__tribe-two {
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .carousel__tribe-two {
+    margin-top: 0;
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .carousel__tribe-two img {
+    width: 100%;
+  }
+}
+.carousel__main {
+  display: none;
+  position: absolute;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  top: 50%;
+  width: 90%;
+  justify-content: space-between;
+  padding: 4rem;
+  left: 45%;
+  transform: translate(-45%);
+}
+@media (min-width: 768px) {
+  .carousel__main {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .carousel__main {
+    top: 52%;
+    padding: 1rem;
+  }
+}
+.carousel__main-item {
+  background: #FFDE59;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  width: 110%;
+  margin-top: 0.5rem;
+  border: 2px solid #000000;
+}
+.carousel__main .style {
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  width: 110%;
+  margin-top: 0.5rem;
+  border: 2px solid #000000;
+}
+.carousel__main .inner {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+.carousel__main .inner img {
+  margin-right: 0.7rem;
+  width: 20%;
+}
+.carousel__main .inner .three {
+  width: 25%;
+  margin-left: -1.6rem;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .carousel__main .inner {
+    font-size: 15px;
+  }
+}
+.carousel__main .data {
+  width: 100%;
+  background: #FFDE59;
+  padding: 1rem;
+  border: 2px solid #000000;
+  border-radius: 12px;
+}
+@media (min-width: 768px) {
+  .carousel__main .data {
+    width: 550px;
+  }
+}
+
+.maxy {
+  background-color: #000000;
+}
+@media (min-width: 768px) {
+  .maxy {
+    margin-bottom: 9rem;
+  }
+}
+
+a {
+  margin-top: 2rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  text-decoration-line: underline;
+  /* Black */
+  color: #000000;
+}
+
+.slider__main-one h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  /* Black */
+  color: #000000;
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=carousel.css.map */

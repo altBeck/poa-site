@@ -1,0 +1,56 @@
+.modal{
+    width: 80%;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+    @media (min-width: 768px){
+        width: 50%;
+        }
+
+    h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        
+        line-height: 120%;
+        color: #000000;
+    }
+    p{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+        letter-spacing: -0.04em;
+
+        color: #080808;
+        margin-bottom: .5rem;
+       
+    }
+
+    img{
+        width: 50%;
+        margin: 0 auto;
+       
+    }
+
+    .close{
+        position: absolute;
+        right: 2%;
+        top: 2%;
+        width: 5%;
+
+      
+    }
+
+}

@@ -1,0 +1,159 @@
+.tribe {
+  margin-top: 0rem;
+  padding: 0rem;
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .tribe {
+    padding: 0rem;
+  }
+}
+.tribe__main-one {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  padding-top: 1rem;
+}
+@media (min-width: 768px) {
+  .tribe__main-one {
+    height: 417px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+  }
+}
+.tribe__main-one h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  /* identical to box height, or 24px */
+  /* white */
+  color: #FFFFFF;
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .tribe__main-one h4 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+  }
+}
+.tribe__main-one p {
+  width: 70%;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  letter-spacing: -0.04em;
+  margin-top: 0.5rem;
+  color: #FFFFFF;
+}
+@media (min-width: 768px) {
+  .tribe__main-one p {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .tribe__main-one p {
+    font-size: 26px;
+  }
+}
+.tribe__main-one button {
+  padding: 1rem;
+  border: 1px solid #ffffff;
+  border-radius: 64px;
+  background-color: inherit;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .tribe__main-one button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+  }
+}
+.tribe__main-one img {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+@media (min-width: 768px) {
+  .tribe__main-one img {
+    width: 25%;
+    top: 15%;
+    right: 10%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .tribe__main-one img {
+    top: 35%;
+  }
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.check-one {
+  background-image: url(../../assets/sergey-pesterev-wdMWMHXUpsc-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.check-two {
+  background-image: url(../../assets/vlad-bunu-d2Q0ZXnWI_c-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: -1rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.check-two .h4 {
+  margin-top: -1rem !important;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .check-two .h4 {
+    margin-top: -2rem !important;
+  }
+}
+
+.main {
+  margin: 1rem;
+}
+@media (min-width: 768px) {
+  .main {
+    margin: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .maxx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: auto !important;
+  }
+}/*# sourceMappingURL=tribe.css.map */

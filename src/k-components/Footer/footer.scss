@@ -1,0 +1,258 @@
+.footer{
+    padding: 1rem;
+    background-color: #000000;
+
+    @media (min-width: 768px){
+        
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1440px;
+    }
+
+    .foot{
+        @media (min-width: 768px){
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+    &__one{
+        @media (min-width: 768px){
+            width: 40%;
+        }
+        p{
+            
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            /* or 111% */
+
+            letter-spacing: -0.04em;
+
+            /* white */
+
+            color: #FFFFFF;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+
+            @media (min-width: 768px){
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+        .p{
+           
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 120%;
+            /* or 17px */
+
+            letter-spacing: -0.04em;
+
+            /* white */
+
+            color: #FFFFFF;
+
+            @media (min-width: 768px){
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+            }
+
+        }
+
+        form{
+            position: relative;
+            
+            input{
+                width: 100%;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 100%;
+                /* identical to box height, or 20px */
+                display: flex;
+                align-items: flex-end;
+                background-color: #000000;
+                /* Neutral/Dark gray */
+                 color: #505050;
+                 border: 0;
+                border-bottom: 0.59375px solid #EAEAEA;
+                padding: 1rem;
+            }
+
+            input:focus{
+                outline: none;
+                border: none;
+            }
+
+            button{
+                padding: .7rem;
+                background: #FFDE59;
+                border-radius: 30.875px;
+                border: 0;
+                position: absolute;
+                top: 20%;
+                right: 5%;
+            }
+        }
+    }
+    &__two{
+        
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        &-one{
+            
+            p{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 150%;
+                /* identical to box height, or 24px */
+                /* white */
+                color: #FFFFFF;
+                margin-bottom: 1rem;
+
+                @media (min-width: 768px){
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                }
+               
+            }
+
+            li{
+                margin-top: .5rem;
+                list-style: none;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 150%;
+                /* identical to box height, or 21px */
+
+                /* white */
+                color: #FFFFFF;
+                
+
+                @media (min-width: 768px){
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 150%;
+                }
+            }
+        }
+
+        &-two{
+            margin-left: 10rem;
+            
+            
+           p{
+            margin-bottom: 1rem;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 150%;
+            /* identical to box height, or 24px */
+            /* white */
+            color: #FFFFFF;
+
+ 
+            @media (min-width: 768px){
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 150%;
+            }
+           }
+
+            li{
+                margin-top: .5rem;
+                display: flex;
+                align-items: center;
+                list-style: none;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 150%;
+                /* identical to box height, or 21px */
+
+
+                /* white */
+
+                color: #FFFFFF;
+
+                img{
+                    margin-right: .7rem;
+                    
+                }
+
+                span{
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 150%;
+                   
+                    color: #FFFFFF;
+                    
+
+                }
+            }
+        }
+    }
+
+    hr{
+        margin-top: 3rem;
+    }
+
+    &__three{
+        margin-top: 1rem;
+
+        
+
+        @media (min-width: 768px){
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        p{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+            /* identical to box height, or 21px */
+            /* white */
+            color: #FFFFFF;
+            margin-top: rem;
+        }
+
+        &-one{
+            margin-top: .5rem;
+            display: flex;
+            align-items: center;
+            p{
+                margin-right: 1rem;
+                margin-top: .3rem;
+            }
+        }
+    }
+}
+
+.maxxx{
+    background-color: #000000;
+    @media (min-width: 768px){
+        padding: 3rem;
+    }
+   
+}
