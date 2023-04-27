@@ -1,0 +1,223 @@
+.footer {
+  padding: 1rem;
+  background-color: #000000;
+}
+@media (min-width: 768px) {
+  .footer {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}
+@media (min-width: 768px) {
+  .footer .foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 768px) {
+  .footer__one {
+    width: 40%;
+  }
+}
+.footer__one p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* or 111% */
+  letter-spacing: -0.04em;
+  /* white */
+  color: #FFFFFF;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .footer__one p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+.footer__one .p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 17px */
+  letter-spacing: -0.04em;
+  /* white */
+  color: #FFFFFF;
+}
+@media (min-width: 768px) {
+  .footer__one .p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+.footer__one form {
+  position: relative;
+}
+.footer__one form input {
+  width: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+  display: flex;
+  align-items: flex-end;
+  background-color: #000000;
+  /* Neutral/Dark gray */
+  color: #505050;
+  border: 0;
+  border-bottom: 0.59375px solid #EAEAEA;
+  padding: 1rem;
+}
+.footer__one form input:focus {
+  outline: none;
+  border: none;
+}
+.footer__one form button {
+  padding: 0.7rem;
+  background: #FFDE59;
+  border-radius: 30.875px;
+  border: 0;
+  position: absolute;
+  top: 20%;
+  right: 5%;
+}
+.footer__two {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+.footer__two-one p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  /* white */
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .footer__two-one p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+.footer__two-one li {
+  margin-top: 0.5rem;
+  list-style: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  /* white */
+  color: #FFFFFF;
+}
+@media (min-width: 768px) {
+  .footer__two-one li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+.footer__two-two {
+  margin-left: 10rem;
+}
+.footer__two-two p {
+  margin-bottom: 1rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  /* white */
+  color: #FFFFFF;
+}
+@media (min-width: 768px) {
+  .footer__two-two p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+.footer__two-two li {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  /* white */
+  color: #FFFFFF;
+}
+.footer__two-two li img {
+  margin-right: 0.7rem;
+}
+.footer__two-two li span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.footer hr {
+  margin-top: 3rem;
+}
+.footer__three {
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .footer__three {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.footer__three p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  /* white */
+  color: #FFFFFF;
+  margin-top: rem;
+}
+.footer__three-one {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.footer__three-one p {
+  margin-right: 1rem;
+  margin-top: 0.3rem;
+}
+
+.maxxx {
+  background-color: #000000;
+}
+@media (min-width: 768px) {
+  .maxxx {
+    padding: 3rem;
+  }
+}/*# sourceMappingURL=footer.css.map */

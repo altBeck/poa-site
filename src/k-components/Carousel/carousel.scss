@@ -1,0 +1,259 @@
+.carousel{
+   
+    padding: 1rem;
+    position: relative;
+
+    @media (min-width: 768px){
+        padding: 3rem;
+        height: 1100px;
+        padding-top: 1rem;
+        margin-bottom: 9rem;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1440px;
+     }
+     @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        
+        height: 700px;
+    }
+
+    &__tribe{
+        margin-top: 4rem;
+        @media (min-width: 768px){
+                display: flex;
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            
+            align-items: flex-start;
+        }
+
+        &-one{
+            @media (min-width: 768px){
+                width: 50%;
+                margin-top: 8rem;
+             }
+             @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                
+                margin-top: 0;
+            }
+        }
+        h3{
+            font-family: 'Computer says no';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 45px;
+            line-height: 40px;
+            /* identical to box height, or 71% */
+
+         
+
+            /* white */
+
+            color: #FFFFFF;
+
+            @media (min-width: 768px){
+                font-weight: 400;
+                font-size: 104px;
+                line-height: 68px;
+             }
+
+             @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                font-size: 2.3rem;
+            }
+        }
+
+        p{
+            margin-top: 1rem;
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+            letter-spacing: -0.04em;
+            /* white */
+            color: #FFFFFF;
+
+            @media (min-width: 768px){
+                font-weight: 400;
+                font-size: 4rem;
+                line-height: 68px;
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                /* or 150% */
+
+                letter-spacing: -0.04em;
+                width: 75%;
+             }
+             @media only screen and (min-width: 768px) and (max-width: 1023px) {
+               font-size: 14px;
+               line-height: 20px;
+            }
+
+        }
+
+        &-two{
+            margin-top: 2rem;
+            text-align: center;
+            @media (min-width: 768px){
+                width: 40%;
+             }
+             @media only screen and (min-width: 768px) and (max-width: 1023px) {
+               margin-top: 0;
+               width: 50%;
+             }
+
+            img{
+                @media (min-width: 768px){
+                    width: 100%;
+                 }
+                
+            }
+        }
+    }
+
+    &__main{
+        display: none;
+        position: absolute;
+        background: #FFFFFF;
+        border: 2px solid #000000;
+        border-radius: 12px;
+        top: 50%;
+        width: 90%;
+        justify-content: space-between;
+        padding: 4rem;
+        left: 45%;
+        transform: translate(-45%);
+
+        @media (min-width: 768px){
+            display: flex;
+        }
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+           
+            top: 52%;
+            padding: 1rem;
+          }
+
+        &-item{
+            background: #FFDE59;
+            
+            border: 1px solid #000000;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: .5rem;
+            margin-left: .5rem;
+            width: 110%;
+            margin-top: .5rem;
+            border: 2px solid #000000;
+        }
+
+        .style{
+            background: #ffffff;
+            border: 1px solid #000000;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: .5rem;
+            margin-left: .5rem;
+            width: 110%;
+            margin-top: .5rem;
+            border: 2px solid #000000;
+        }
+        .inner{
+            padding: .5rem;
+            display: flex;
+            align-items: center;
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            color: #000000;
+            img{
+                margin-right: .7rem;
+                width: 20%;
+            }
+
+            .three{
+                width: 25%;
+                margin-left: -1.6rem;
+            }
+            @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                font-size: 15px;
+              }
+        }
+
+        .data{
+            width: 100%;
+            background: #FFDE59;
+            padding: 1rem;
+            border: 2px solid #000000;
+            border-radius: 12px;
+            @media (min-width: 768px){
+                // height: 518px;
+                width: 550px;
+        }
+
+       
+        
+        }
+    }
+}
+
+.maxy{
+    background-color: #000000;
+    
+    @media (min-width: 768px){
+        margin-bottom: 9rem;
+}
+}
+.buttons{
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        
+        
+      }
+}
+a{
+    margin-top: 2rem;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+text-align: center;
+text-decoration-line: underline;
+
+/* Black */
+
+color: #000000;
+
+
+}
+.slider__main-one{
+    @media (min-width: 768px){
+        // height: 140px;
+}
+
+h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+
+
+    /* Black */
+
+    color: #000000;
+    margin-bottom: 1rem;
+}
+}

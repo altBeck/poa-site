@@ -1,0 +1,360 @@
+.form{
+    padding: 1rem;
+    text-align: center;
+    @media (min-width: 768px){
+       padding: 3rem;
+       margin-top: 4rem;
+       padding-left: 0;
+       padding-right: 0;
+    }
+    &__header{
+        @media (min-width: 768px){
+            width: 93%;
+            height: 374px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+         }
+        background: #000000;
+        border-radius: 12px;
+        padding: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        h4{
+
+            @media (min-width: 768px){
+                font-weight: 700;
+                font-size: 3rem;
+                line-height: 100%;
+             }
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 100%;
+            /* identical to box height, or 24px */
+
+            text-align: center;
+
+            /* white */
+
+            color: #FFFFFF;
+        }
+
+        p{
+            @media (min-width: 768px){
+                ont-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                /* identical to box height, or 150% */
+                
+                text-align: center;
+                letter-spacing: -0.04em;    
+                margin-top: 1rem;            
+             }
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+            text-align: center;
+            letter-spacing: -0.04em;
+            /* white */
+            color: #FFFFFF;
+        }
+        button{
+            margin-top: 1rem;
+            background: #FFDE59;
+            border-radius: 64px;
+            border: 0;
+            padding: 1rem;
+
+            @media (min-width: 768px){
+               width: 15%;   
+               margin: 0 auto;  
+               margin-top: 1rem;    
+             }
+        }
+    }
+}
+
+.formm{
+    background-color: #000000;
+    margin-top: 10rem;
+    padding: 1rem;
+    position: relative;
+
+    .form-modal{
+        position: absolute;
+        width: 80%;
+        left: 50%;
+        transform: translate(-50%);
+
+        @media (min-width: 768px){
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            }
+       
+    }
+
+    
+    @media (min-width: 768px){
+       padding: 3rem;
+       }
+    form{
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 8px;
+        padding: 2rem;
+        margin-top: -7rem;
+
+        @media (min-width: 768px){
+            padding-left: 7rem;
+            width: 100%;
+        }
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            padding-left: 2rem;
+            padding-right: 2rem;
+         }
+        .main-box{
+            
+            @media (min-width: 768px){
+                
+                width: 60%;
+            }
+            @media only screen and (min-width: 768px) and (max-width: 1023px) {
+               width: 100%;
+            }
+        }
+
+        .box{
+            @media (min-width: 768px){
+                display: flex;
+                align-items: center;
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
+
+        h4{
+            font-family: 'Computer says no';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 40px;
+            /* identical to box height, or 71% */
+
+            text-align: center;
+            text-transform: capitalize;
+
+            /* Black */
+
+            color: #000000;
+            @media (min-width: 768px){
+                text-align: left;
+                font-weight: 400;
+                font-size: 4rem;
+                line-height: 68px;     
+              }
+
+              @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                text-align: center;
+             }
+        }
+
+        p{
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+            text-align: center;
+            letter-spacing: -0.04em;
+            /* Black */
+            color: #000000;
+            @media (min-width: 768px){
+                text-align: left;   
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;  
+                margin-top: .5rem;
+                width: 60%;
+                margin-top: 1rem;
+              }
+
+              @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                text-align: center;
+                width: 100%;
+             }
+        }
+
+        .inp{
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            @media (min-width: 768px){
+                width: 100%;
+                
+            }
+
+            label{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                /* identical to box height, or 24px */
+                /* Black */
+                color: #000000;
+                margin-bottom: .5rem;
+
+                
+            }
+
+            input{
+                padding: 1rem;
+                background: #FFFFFF;
+                /* Black */
+
+                border: 1px solid #000000;
+                border-radius: 8px;
+                @media (min-width: 768px){
+                  width: 100%;
+                }
+            }
+
+            textarea{
+                padding: 1rem;
+                background: #FFFFFF;
+                /* Black */
+
+                border: 1px solid #000000;
+                border-radius: 8px;
+                @media (min-width: 768px){
+                   width: 100%;
+                  }
+            }
+
+            
+        }
+
+        .inpp{
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            @media (min-width: 768px){
+                width: 47%;
+            }
+
+            label{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                /* identical to box height, or 24px */
+                /* Black */
+                color: #000000;
+                margin-bottom: .5rem;
+
+                
+            }
+
+            input{
+                padding: 1rem;
+                background: #FFFFFF;
+                /* Black */
+
+                border: 1px solid #000000;
+                border-radius: 8px;
+                @media (min-width: 768px){
+                  width: 100%;
+                }
+            }
+
+            
+        }
+        }
+        button{
+            padding: .8rem;
+            background: #FFDE59;
+            border-radius: 64px;
+            width: 100%;
+            border: 0;
+            margin-top: 1.5rem;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 100%;
+            /* identical to box height, or 14px */
+
+            text-align: center;
+
+            /* Black */
+
+            color: #000000;
+            @media (min-width: 768px){
+                width: 20%;
+                
+            }
+
+        }
+
+
+ }
+
+ .dropdown{
+    width: 100%;
+
+    input{
+        width: 100% !important;
+    }
+ }
+.dropdown-menu{
+    border: 1px solid;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2), 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 1rem;
+
+    @media (min-width: 768px){
+        position: absolute;
+        width: 22%;
+        z-index: 100;
+        background-color: #FFFFFF;
+    }
+
+
+    li{
+        margin-top: 15px;
+        list-style: none;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: -0.04em;
+        margin-left: 2rem;
+        margin-bottom: .5rem;
+
+    }
+}
+
+.modal-main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.525);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}

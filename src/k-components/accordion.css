@@ -1,0 +1,26 @@
+.accordion {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  cursor: pointer;
+  /* identical to box height, or 16px */
+  /* Black */
+  color: #000000;
+}
+.accordion h3 {
+  text-align: left;
+}
+.accordion-header {
+  display: flex;
+  align-items: center;
+}
+.accordion-header h3 {
+  margin-right: 0.5rem;
+}
+.accordion-header img {
+  margin-top: 0.1rem;
+}/*# sourceMappingURL=accordion.css.map */

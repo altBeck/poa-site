@@ -1,6 +1,7 @@
 import React from 'react'
 import { About, Navbar } from '../components'
-import { Calculator, Contact, Faq, Footer, Header, Partners, Pool, Projects, Stake, Steps, Team } from '../containers'
+import { Calculator, Contact, Faq, Header, Partners, Pool, Projects, Stake, Steps, Team } from '../containers'
+import Footer from '../k-components/Footer/Footer'
 
 const Home = () => {
   return (
