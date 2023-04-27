@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { db } from "../../firebase"
 import Modal from '../Modal/Modal'
+import BeatLoader from "react-spinners/BeatLoader"
 
 import "./form.css"
 
@@ -58,6 +59,7 @@ const Form = () => {
   const [isOpen, setIsOpen] = useState(false);
   const scrollableContainerRef = useRef(null);
   const[showModal, setShowModal] = useState(false)
+  const [loading, setLoading] = useState(false)
 
   const handleOptionClick = (optionValue) => {
     setSelectedOption(optionValue);
@@ -66,6 +68,7 @@ const Form = () => {
 
   const handleSubmit = (e) =>{
     e.preventDefault();
+    setLoading(true)
 
   
     db.collection("info")
@@ -83,19 +86,21 @@ const Form = () => {
       //  setTimeout(() => {
       //    setShowModal(false)
       //    }, 5000); 
+      setLoading(false)
+      setEmail("")
+      setName('')
+      setTwitter('')
+      setWhat('')
+      setMotive('')
+      setNft('')
+      setThat('')
+      setSelectedOption('')
+      
    }).catch((error)=>{
       alert(error.message)
    })
 
-   setEmail("")
-   setName('')
-   setTwitter('')
-   setWhat('')
-   setMotive('')
-   setNft('')
-   setThat('')
-   setSelectedOption('')
-   setShowModal(false)
+   
 }
 
 
@@ -218,7 +223,7 @@ const Form = () => {
                     onChange={(e)=>setNft(e.target.value)}
                 />
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit">{loading ? <BeatLoader color="black" /> : <>Submit</>}</button>
         </div>
         </form>
         </div>

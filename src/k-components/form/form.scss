@@ -88,10 +88,11 @@
     position: relative;
 
     .form-modal{
-        position: absolute;
+        position: fixed;
         width: 80%;
         left: 50%;
         transform: translate(-50%);
+        z-index: 999;
 
         @media (min-width: 768px){
             top: 50%;
