@@ -6,7 +6,7 @@
   border: 2px solid black;
   padding: 4em;
   border-radius: 8px;
-  margin-top: 8em;
+  margin-top: -4em;
 }
 .poa__contact-container {
   max-width: 900px;
@@ -100,7 +100,7 @@
 
 .contact-bg {
   background-color: #000000;
-  margin-top: 10rem;
+  margin-top: 12rem;
   padding: .1rem;
   position: relative;
 }
@@ -138,6 +138,7 @@
     max-width: 100%;
     padding: 16px !important;
     margin: 1rem;
+    margin-top: -8rem;
   }
 
   .form-label select {

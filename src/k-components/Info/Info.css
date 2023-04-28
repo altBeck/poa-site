@@ -15,6 +15,11 @@
     justify-content: space-between;
   }
 }
+
+.info__one-msg button {
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .info__one {
     flex-direction: column;

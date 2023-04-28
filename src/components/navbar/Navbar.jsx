@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className="poa__navbar">
       <div className="poa__navbar-links">
         <div className="poa__navbar-links_logo">
-          <img src={logo} alt="logo" />
+        <a href="/"><img src={logo} alt="" /></a>
         </div>
         <div className="poa__navbar-links_container">
           <Menu />

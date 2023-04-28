@@ -13,7 +13,7 @@ const Header = () => {
     <div className="headerr">
     <div className="header">
       <div className="header__logo">
-        <img src={logo} alt="" />
+        <a href="/"><img src={logo} alt="" /></a>
       </div>
 
       <div className="header__menu">
