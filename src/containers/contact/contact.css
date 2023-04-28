@@ -98,6 +98,13 @@
   margin-bottom: 64px;
 }
 
+.contact-bg {
+  background-color: #000000;
+  margin-top: 10rem;
+  padding: .1rem;
+  position: relative;
+}
+
 .contact-button {
   text-align: center;
   margin-left: auto;

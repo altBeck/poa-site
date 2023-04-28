@@ -22,9 +22,9 @@ const Header = () => {
 
       <div className="list">
         <ul>
-            <li>About us</li>
+            <li><a href="/#about">About Us</a></li>
           
-            <li>Project</li>
+            <li><a href="/#projects">Projects</a></li>
             
             <Accordion title="Discover Africa">
                 <ul className="ul">

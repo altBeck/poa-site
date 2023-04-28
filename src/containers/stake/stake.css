@@ -43,6 +43,10 @@
   width: 580px;
 }
 
+input#billAmount {
+  width: 25%;
+}
+
 .poa__calculator-form {
   padding: 1rem;
   background-color: white;

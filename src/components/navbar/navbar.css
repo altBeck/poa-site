@@ -33,6 +33,7 @@
 
 .poa__navbar a {
   text-decoration: none;
+  font-weight: 300;
 }
 
 .poa__navbar-links_container p,
@@ -60,6 +61,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.poa__navbar-links_stake a {
+  margin-top: 0;
+  padding: 4px;
 }
 
 .poa__navbar-menu_container {
