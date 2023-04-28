@@ -50,9 +50,9 @@
   height: 80vh;
 }
 
-.slider {
+.sliding {
   position: relative;
-  padding-left: 0;
+  padding-left: 0 !important;
 }
 
 .slider-image {

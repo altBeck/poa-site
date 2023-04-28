@@ -40,7 +40,7 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="slider">
+          <div className="sliding">
             <div className="slider-image">
               <img src={slide} alt="slide hero"/>
             </div>
