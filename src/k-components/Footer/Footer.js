@@ -1,9 +1,10 @@
 import React from 'react'
 import proof from "../../assets/Proof of Africa negative w-tagline 2.svg"
-import fb from "../../assets/Vector.svg"
+import fb from "../../assets/fb.svg"
 import insta from "../../assets/insta.svg"
-import twitter from "../../assets/twitter.svg"
-import linkedin from "../../assets/linkedin.svg"
+import twttr from "../../assets/twttr.svg"
+import lnkdn from "../../assets/lnkdn.svg"
+import { Link } from 'react-router-dom';
 
 import './footer.css'
 
@@ -30,11 +31,11 @@ const Footer = () => {
 
         <div className='footer__two'>
             <div className='footer__two-one'>
-                <p>About Us</p>
-                <li>About Us</li>
-                <li>Projects</li>
-                <li>Discover Africa</li>
-                <li>Cultural spaces</li>
+                <p>Company</p>
+                <li><a href="https://poapool.com/#about">About Us</a></li>
+                <li><a href="https://poapool.com/#projects">Projects</a></li>
+                <li><Link to="/discover">Discover Africa</Link></li>
+
             </div>
 
             <div className='footer__two-two'>
@@ -48,12 +49,12 @@ const Footer = () => {
                     <img src={insta} alt=""/>
                     <span>Instagram</span>
                 </li>
-                <li>
-                    <img src={twitter} alt=""/>
-                    <span>Twitter</span>
+                <li><a><img src={twttr} alt=""/>
+                    <span>Twitter</span></a>
+                    
                 </li>
                 <li>
-                    <img src={linkedin} alt=""/>
+                    <img src={lnkdn} alt=""/>
                     <span>LinkedIn</span>
                 </li>
             </div>

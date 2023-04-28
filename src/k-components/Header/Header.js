@@ -73,9 +73,29 @@ const Header = () => {
           <hr />
           <Accordion title="Discover Africa">
               <ul>
-                <li>Cultural spaces</li>
-                <li>The tribal series</li>
+              <Link
+                to="features-section"
+                smooth={true}
+                duration={500}
+              >
+                  <li>Cultural spaces</li>
+             </Link>
+
+             <Link
+                to="tribe"
+                smooth={true}
+                duration={500}
+              >
+                 <li>The tribal series</li>
+             </Link>
+
+             <Link
+                to="form"
+                smooth={true}
+                duration={500}
+              >
                 <li>I’m an artist</li>
+             </Link>
               </ul>
           </Accordion>
           <hr />

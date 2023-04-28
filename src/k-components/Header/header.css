@@ -12,6 +12,11 @@
   align-items: center;
   display: none;
 }
+
+.accordion-content a {
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   .header .list {
     display: flex;

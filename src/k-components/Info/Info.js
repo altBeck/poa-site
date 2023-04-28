@@ -11,7 +11,7 @@ import './Info.css'
 const Info = () => {
   return (
     <>
-    <div className='max'>
+    <div id="cultural" className='max'>
     <div className='info'>
       <div className='info__one'>
         <div className='info__one-msg'>
