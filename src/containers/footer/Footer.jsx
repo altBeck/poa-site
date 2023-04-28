@@ -67,9 +67,9 @@ const Footer = () => {
             <p>2023 Proof of Africa. All right reserved.</p>
 
             <div className="footer__three-one">
-                <p>Privacy Policy</p>
-                <p>Terms of Service</p>
-                <p>Cookies Settings</p>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Cookies Settings</li>
             </div>
         </div>
         </div>

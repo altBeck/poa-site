@@ -8,6 +8,12 @@
   align-items: center;
 }
 
+.line {
+  border-top: 1px solid white;
+  width: 100%;
+  margin-top: 2rem;
+}
+
 .footer__two-one a {
   color: white;
   text-decoration: none;
@@ -246,10 +252,7 @@
   display: flex;
   align-items: center;
 }
-.footer__three-one p {
-  margin-right: 1rem;
-  margin-top: 0.3rem;
-}
+
 
 .maxxx {
   background-color: #000000;

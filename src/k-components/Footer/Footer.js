@@ -54,7 +54,7 @@ const Footer = () => {
 
         </div>
 
-        <hr />
+        <div className="line"></div>
         
         <div className='footer__three'>
             <p>2023 Proof of Africa. All right reserved.</p>
