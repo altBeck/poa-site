@@ -41,21 +41,13 @@ const Footer = () => {
             <div className='footer__two-two'>
                 <p>Follow Us</p>
 
-                <li>
-                    <img src={fb} alt=""/>
-                    <span>Facebook</span>
-                </li>
-                <li>
-                    <img src={insta} alt=""/>
-                    <span>Instagram</span>
-                </li>
-                <li><a><img src={twttr} alt=""/>
+                <li><a className="link-sm" href="https://twitter.com/poapool"><img src={twttr} alt=""/>
                     <span>Twitter</span></a>
                     
                 </li>
-                <li>
-                    <img src={lnkdn} alt=""/>
-                    <span>LinkedIn</span>
+                <li><a className="link-sm" href="https://www.linkedin.com/company/proofofafrica/"><img src={lnkdn} alt=""/>
+                    <span>LinkedIn</span></a>
+                    
                 </li>
             </div>
         </div>

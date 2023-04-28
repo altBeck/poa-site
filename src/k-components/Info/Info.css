@@ -1,15 +1,37 @@
 .info {
   padding: 1rem;
 }
+
+.zoe {
+  text-decoration: underline;
+}
+
+.btn-sm {
+  margin: 0;
+  display: flex;
+  text-decoration: none;
+  padding: .5rem;
+}
+@media (min-width: 1280px) {
+  .info__two-main button {
+    margin-top: 1.2rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .info__two-main button {
+    margin-top: 1.2rem !important;
+    margin-bottom: 1.2rem !important;
+  }
+}
 @media (min-width: 768px) {
   .info {
-    padding: 3rem;
     margin-bottom: 2rem;
     margin-top: 8rem;
   }
 }
 @media (min-width: 768px) {
   .info__one {
+    padding: 3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -176,7 +198,7 @@
   padding: 0.7rem;
   background-color: #FFDE59;
   border: 0;
-  border-radius: 25px;
+  border-radius: 99px;
   margin-top: 0.3rem;
   display: flex;
   align-items: center;
@@ -249,7 +271,7 @@
   .info__two-main p {
     font-weight: 400;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 33px;
     letter-spacing: -0.04em;
   }
 }

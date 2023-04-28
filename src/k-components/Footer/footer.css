@@ -3,6 +3,11 @@
   background-color: #000000;
 }
 
+.link-sm {
+  display: flex;
+  align-items: center;
+}
+
 .footer__two-one a {
   color: white;
   text-decoration: none;
@@ -182,8 +187,8 @@
   }
 
   .footer__two-two p {
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 150%;
   }
 }
@@ -208,7 +213,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 150%;
   color: #FFFFFF;
 }

@@ -56,10 +56,12 @@ const Info = () => {
                  captures her own experiences and emotions as a woman, artist and Taiwanese.
               </p>
 
-              <button>
-                Connect on twitter
+              <button><a className="btn-sm" href="https://twitter.com/taimei_886">
+              Connect on twitter
 
                 <img src={arrow} alt=""/>
+              </a>
+                
               </button>
           </div>
 
@@ -69,13 +71,15 @@ const Info = () => {
                   <p>Nkesi</p>
               </div>
               <p className="pp">A community builder at heart and a speaker with a passion for onboarding
-               people into the web3 space; <Link to={{ pathname: `https://twitter.com/zoepoolz` }} target="_blank"> Zoepool Co-host</Link>, Nkesi is excited about bringing people who 
+               people into the web3 space; <a className="zoe" href="https://twitter.com/zoepool">Zoepool Co-host</a>, Nkesi is excited about bringing people who 
               share an enthusiasm for Culture and Arts together in this space.</p>
 
-              <button>
-                Connect on twitter
+              <button><a className="btn-sm" href="https://twitter.com/Nkesi_x">
+              Connect on twitter
 
                 <img src={arrow} alt=""/>
+              </a>
+                
               </button>
           </div>
           </div>

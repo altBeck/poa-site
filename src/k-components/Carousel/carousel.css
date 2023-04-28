@@ -213,7 +213,6 @@
 }
 
 a {
-  margin-top: 2rem;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -221,7 +220,7 @@ a {
   line-height: 16px;
   /* identical to box height, or 100% */
   text-align: center;
-  text-decoration-line: underline;
+  text-decoration-line: none;
   /* Black */
   color: #000000;
 }
