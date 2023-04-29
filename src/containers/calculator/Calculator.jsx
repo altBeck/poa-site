@@ -33,8 +33,8 @@ const Calculator = () => {
       </div>
 
       <div className="line-set">
-        <div className="line"></div>
-        <div className="line"></div>
+        <div className="liner"></div>
+        <div className="liner"></div>
       </div>
 
       <div className="poa__why-container-second">
