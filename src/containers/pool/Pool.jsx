@@ -11,7 +11,7 @@ function Pool() {
   }
 
   return (
-    <div className="poa__pool-container">
+    <div id='pool' className="poa__pool-container">
       <h1 className="font-face-cm poa__pool-container-head">Our Pool Information</h1>
 
       <div className="poa__pool-sub__container">

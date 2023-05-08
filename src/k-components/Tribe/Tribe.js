@@ -53,14 +53,14 @@ const Tribe = () => {
                     <h4 className='h4'>Cultural Spaces</h4>
                     <p>An opportunity to uncover talented web3 artists cross chain</p>
                    
-                    {/* <Link
-                      to="tribal-series"
+                    {<Link
+                      to="features-section"
                       smooth={true}
                       duration={500}
                     >
                       <button> Connect with us</button>
-                    </Link> */}
-                    <button> Connect with us</button>
+                    </Link> }
+                    
                 </div>
           </div>
         </div>

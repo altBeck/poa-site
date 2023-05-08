@@ -19,7 +19,7 @@ function Stake() {
 
 
   return (
-    <div className="poa__calculator-container">
+    <div id='stake' className="poa__calculator-container">
       <img className="map" src={map} alt="map" />
       <img className="map-mobile" src={mapp} alt="map-mobile"/>
 

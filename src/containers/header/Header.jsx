@@ -32,7 +32,7 @@ const Header = () => {
                 <h1 className="font-face-cm">Are you interested in staking?</h1>
                 <h3>Earn $ADA rewards while discovering Africa</h3>
               </div>
-              <button type="button" className="poa__header-btn">Get started</button>
+              <a href="#stake"><button type="button" className="poa__header-btn">Get Started</button></a>
             </div>
 
             <div className="poa__header_hero-img">
@@ -48,7 +48,7 @@ const Header = () => {
             <div className="slider-content">
               <h1 className="font-face-cm">Connect with top cross-chain artists</h1>
               <p>Connect with cross-chain artists while learning about indigenous tribes of Africa</p>
-              <button type="button" className="poa__header-btn">Get started</button>
+              <a href="#contact"><button type="button" className="poa__header-btn">Get Started</button></a>
             </div>
 
           </div>
@@ -58,7 +58,7 @@ const Header = () => {
               <h1 className="font-face-cm">Proof Of Africa Stake Pool</h1>
               <p>we are a single-pool staking operation committed to advancing decentralization within the cardano blockchain platform</p>
             </div>
-            <button type="button" className="poa__header-btn">Get started</button>
+            <a href="#pool"><button type="button" className="poa__header-btn">Get Started</button></a>
             <div className="coin-img">
               <img src={coin} alt="coins"/>
             </div>

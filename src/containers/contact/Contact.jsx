@@ -48,7 +48,7 @@ const Contact = () => {
 
   return (
 
-    <div className="contact-bg">
+    <div id='contact' className="contact-bg">
 
       <div className="contact">
 
