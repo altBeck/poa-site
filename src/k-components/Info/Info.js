@@ -2,11 +2,11 @@ import React from 'react'
 import hosts from "../../assets/Group 3618.svg"
 import avatar from "../../assets/Ellipse 7.svg"
 import avata from "../../assets/Ellipse 7 (1).svg"
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import arrow from "../../assets/arrow.svg"
 
 
-import './Info.css'
+import './Info.css';
 
 const Info = () => {
   return (
@@ -93,7 +93,7 @@ const Info = () => {
       <h4>New to spaces?</h4>
       <p>Space tip - Introduce yourself culturally, then share, collab and connect</p>
 
-      <button>Go to events</button>
+      <button className="form__header_button"><Link to="/coming-soon">Go to events</Link></button>
   </div>
   </div>
 </div>
