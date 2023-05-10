@@ -24,6 +24,12 @@
     width: 100% !important;
   }
 }
+
+@media (max-width: 640px) {
+  .footer__three-one {
+    width: 100% !important;
+  }
+}
 @media (min-width: 768px) {
   .footer {
     width: 100%;
