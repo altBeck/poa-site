@@ -65,7 +65,7 @@ const Header = () => {
             
             
           </ul>
-          <button>Start staking</button>
+          <button><a href="/#staking">Start staking</a></button>
       </div>
 
      
@@ -105,7 +105,7 @@ const Header = () => {
               </ul>
           </Accordion>
           <hr />
-          <button>Start staking</button>
+          <button><a href="/#staking">Start staking</a></button>
         </ul>
       </div>
     </div>
