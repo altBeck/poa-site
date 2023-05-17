@@ -27,13 +27,8 @@ const Info = () => {
               A unique onboarding space and an equally great opportunity to Meet, Collab, 
               and make new connections with truly talented artists!</p>
 
-              <Link
-            to="form"
-            smooth={true}
-            duration={500}
-              >
-              <button>I’m an artist</button>
-              </Link>
+              <button><a href="#form">I'm an artist</a></button>
+
           </div>
 
           <div className='info__one-hosts'>

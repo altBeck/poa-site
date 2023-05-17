@@ -22,9 +22,15 @@ const Header = () => {
 
       <div className="list">
         <ul>
-            <li><a href="/#about">About Us</a></li>
+
+          <li>
+            <a href="https://poapool.com/#about">About Us</a>
+          </li>
           
-            <li><a href="/#projects">Projects</a></li>
+          <li>
+
+            <a href="/">Projects</a>
+          </li>
             
             <Accordion title="Discover Africa">
                 <ul className="ul">
@@ -54,7 +60,7 @@ const Header = () => {
                 
                   
                   
-                </ul>
+              </ul>
             </Accordion>
             
             
@@ -67,9 +73,9 @@ const Header = () => {
 
     <div className={showNav ? "active": "notactive"}>
         <ul>
-          <li>About us</li>
+          <li><a href="/#about">About Us</a></li>
           <hr />
-          <li>Project</li>
+          <li><a href="/#project">Projects</a></li>
           <hr />
           <Accordion title="Discover Africa">
               <ul>

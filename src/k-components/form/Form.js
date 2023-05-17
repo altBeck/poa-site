@@ -117,7 +117,7 @@ const Form = () => {
 
   return (
     <>
-    <div className='formm'>
+    <div id="form" className='formm'>
       <div className='max'>
       {showModal &&  <div><div onClick={()=>setShowModal(false)} className="modal-main"></div>
       <div className='form-modal'>
