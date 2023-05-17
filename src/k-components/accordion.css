@@ -17,6 +17,8 @@
 .accordion-header {
   display: flex;
   align-items: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 .accordion-header h3 {
   margin-right: 0.5rem;
