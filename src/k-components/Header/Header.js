@@ -26,7 +26,7 @@ const Header = () => {
           <li>
             <a href="https://poapool.com/#about">About Us</a>
           </li>
-          
+          ç
           <li>
 
             <a href="/">Projects</a>
